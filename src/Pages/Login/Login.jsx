@@ -30,7 +30,7 @@ const Login = () => {
           console.log(user);
           navigate(from, {replace:true})
           
-          // fetch('http://localhost:5000/jwt', {
+          // fetch('https://car-doctor-server69.vercel.app/jwt', {
           //   method:'POST',
           //   headers: {
           //     'content-type':'application/json'
